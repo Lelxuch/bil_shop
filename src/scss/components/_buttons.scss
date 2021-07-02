@@ -1,0 +1,18 @@
+.box-btn {
+  border: 1px solid $light-grey;
+  border-radius: 5px;
+  padding: 5px;
+  transition: 0.1s linear;
+  img {
+    width: 15px;
+    height: 15px;
+  }
+  &.cancel {
+    img {
+      transform: rotate(45deg);
+    }
+  }
+  &:hover {
+    transform: scale(1.1);
+  }
+}

@@ -1,0 +1,10 @@
+.home-title {
+  margin: 50px 0;
+}
+
+.home-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
