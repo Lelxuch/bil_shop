@@ -3,6 +3,7 @@
   border-radius: 5px;
   padding: 5px;
   transition: 0.1s linear;
+  background: transparent;
   img {
     width: 15px;
     height: 15px;
@@ -14,5 +15,27 @@
   }
   &:hover {
     transform: scale(1.1);
+  }
+}
+
+.icon-btn {
+  border: none;
+  background: transparent;
+  transition: 0.2s linear;
+  img {
+    width: 25px;
+    height: 25px;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  & img.like-btn {
+    display: none;
+  }
+
+  & img.like-btn.active {
+    display: block;
   }
 }
